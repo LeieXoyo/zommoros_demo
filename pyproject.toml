@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "zommoros"
+version = "0.1.0"
+description = ""
+authors = ["LeieXoyo <gen@gen.li>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+orator = "^0.9.9"
+PyMySQL = "^0.10.0"
+requests = "^2.24.0"
+lxml = "^4.5.2"
+beautifulsoup4 = "^4.9.1"
+pyyaml = "^5.3.1"
+backtrader = "^1.9.76"
+websockets = "^8.1"
+ipython = "^7.16.1"
+matplotlib = "3.2.2"
+ccxt = "^1.41"
+numpy = "1.19.3"
+backtrader_plotting = "^1.1.0"
+DingtalkChatbot = "^1.5.2"
+Flask = "^2.0.2"
+retrying = "^1.3.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pylint = "^2.5.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
